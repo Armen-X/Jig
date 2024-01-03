@@ -1,7 +1,7 @@
 Set objShell = CreateObject("WScript.Shell")
 
 Do
-    MoveMouse(10, 10) ' Move the mouse cursor by 10 pixels horizontally and vertically
+    MoveMouse 10, 10 ' Move the mouse cursor by 10 pixels horizontally and vertically
     WScript.Sleep 30000 ' Sleep for 30 seconds
 Loop
 
