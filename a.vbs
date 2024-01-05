@@ -2,7 +2,7 @@ Set objShell = CreateObject("WScript.Shell")
 
 Do
     ' Move the mouse cursor by a minimal amount to prevent Skype from going idle
-    MoveMouse(1, 1) ' Move the mouse cursor by 1 pixel horizontally and vertically
+    MoveMouse 1, 1 ' Move the mouse cursor by 1 pixel horizontally and vertically
     WScript.Sleep 30000 ' Sleep for 30 seconds
 Loop
 
